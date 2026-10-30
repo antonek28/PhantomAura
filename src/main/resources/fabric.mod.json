@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "phantomaura",
+  "version": "1.7.0",
+  "name": "PhantomAura",
+  "description": "Target visualization mod",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.phantomaura.PhantomAura"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
